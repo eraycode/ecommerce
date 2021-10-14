@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.header{
+  background: radial-gradient(#fff,#d2e5fa);
+}
+
+.header row{
+
+}
+
 .navbar{
   display: flex;
   align-items: center;
@@ -71,4 +83,10 @@ p{
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
+  transition: background 0.5s;
 }
+
+.btn:hover{
+  background: #324152;
+}
+/*27 :40*/
