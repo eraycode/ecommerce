@@ -290,6 +290,7 @@ small{
 
 ul{
   list-style-type: none;
+  cursor: pointer;
 }
 
 .app-logo{
