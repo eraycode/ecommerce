@@ -134,7 +134,8 @@ p{
   color: #555;
 }
 
-.container{
+.container,
+.products-container{
   max-width: 1500px;
   margin: auto;
   padding-left: 20px;
@@ -392,4 +393,58 @@ ion-icon {
   .rating{
     width:
   }
+}
+
+
+/*------------------ WINKELWAGEN PAGINA CART.HTML -----------------------*/
+
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid black;
+  margin: 0 auto;
+}
+
+.product-title {
+  width: 45%;
+}
+
+.price {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+
+.total {
+  width: 10%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
 }
